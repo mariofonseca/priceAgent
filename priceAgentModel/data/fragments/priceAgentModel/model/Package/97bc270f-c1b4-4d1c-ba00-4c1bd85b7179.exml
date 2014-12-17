@@ -3,6 +3,7 @@
   <DEPS>
     <ID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
     <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+    <COMPID name="Seller" mc="Actor" uid="3b4c22e3-6b5d-427e-a848-94f491030b95"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
     <COMPID name="priceagentmodel Use Case diagram" mc="UseCaseDiagram" uid="c3a00c01-5be7-48eb-9ff3-3dc146357e40"/>
   </DEPS>
@@ -21,6 +22,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+        <COMPID name="Seller" mc="Actor" uid="3b4c22e3-6b5d-427e-a848-94f491030b95"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
