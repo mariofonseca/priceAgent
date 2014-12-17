@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="priceagentmodel" version="3">
+  <DEPS>
+    <ID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
+    <COMPID name="priceagentmodel Use Case diagram" mc="UseCaseDiagram" uid="c3a00c01-5be7-48eb-9ff3-3dc146357e40"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <PID name="priceAgentModel" mc="Project" uid="bbef43c7-6f41-4e8f-b8b7-8ee4145a189f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[priceagentmodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
+        <COMPID name="priceagentmodel Use Case diagram" mc="UseCaseDiagram" uid="c3a00c01-5be7-48eb-9ff3-3dc146357e40"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

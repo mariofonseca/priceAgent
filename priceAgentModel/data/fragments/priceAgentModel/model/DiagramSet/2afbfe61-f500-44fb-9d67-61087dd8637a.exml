@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="priceAgentModel" version="3">
+  <DEPS>
+    <ID name="priceAgentModel" mc="DiagramSet" uid="2afbfe61-f500-44fb-9d67-61087dd8637a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="priceAgentModel" mc="DiagramSet" uid="2afbfe61-f500-44fb-9d67-61087dd8637a"/>
+    <PID name="priceAgentModel" mc="Project" uid="bbef43c7-6f41-4e8f-b8b7-8ee4145a189f"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[priceAgentModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

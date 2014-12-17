@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="priceAgentModel" version="3">
+  <DEPS>
+    <ID name="priceAgentModel" mc="Project" uid="bbef43c7-6f41-4e8f-b8b7-8ee4145a189f"/>
+    <COMPID name="priceAgentModel" mc="DiagramSet" uid="2afbfe61-f500-44fb-9d67-61087dd8637a"/>
+    <COMPID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="priceAgentModel" mc="Project" uid="bbef43c7-6f41-4e8f-b8b7-8ee4145a189f"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[priceAgentModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="priceAgentModel" mc="DiagramSet" uid="2afbfe61-f500-44fb-9d67-61087dd8637a"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
