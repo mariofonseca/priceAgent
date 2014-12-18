@@ -3,13 +3,9 @@
   <DEPS>
     <ID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
     <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
-<<<<<<< HEAD
     <COMPID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
     <COMPID name="Seller" mc="Actor" uid="e5452efd-a90e-479a-894c-98658e17053a"/>
     <COMPID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
-=======
-    <COMPID name="Seller" mc="Actor" uid="3b4c22e3-6b5d-427e-a848-94f491030b95"/>
->>>>>>> 4ea746e053e8621e64cdf1c38b51163328d6d25e
     <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
     <COMPID name="priceagentmodel Use Case diagram" mc="UseCaseDiagram" uid="c3a00c01-5be7-48eb-9ff3-3dc146357e40"/>
   </DEPS>
@@ -28,13 +24,9 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
-<<<<<<< HEAD
         <COMPID name="Seller" mc="Actor" uid="e5452efd-a90e-479a-894c-98658e17053a"/>
         <COMPID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
         <COMPID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
-=======
-        <COMPID name="Seller" mc="Actor" uid="3b4c22e3-6b5d-427e-a848-94f491030b95"/>
->>>>>>> 4ea746e053e8621e64cdf1c38b51163328d6d25e
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="2f923cf5-80da-4254-b3c9-635476113ec1"/>
