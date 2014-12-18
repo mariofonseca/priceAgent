@@ -1,33 +1,30 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consumer" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GoodOrService" version="3">
   <DEPS>
-    <ID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+    <ID name="GoodOrService" mc="Class" uid="5368809e-5aeb-4110-b17e-e83667145e0e"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
-    <PID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <ID name="GoodOrService" mc="Class" uid="5368809e-5aeb-4110-b17e-e83667145e0e"/>
+    <PID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Consumer]]></ATT>
+      <ATT name="Name"><![CDATA[GoodOrService]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Note" uid="c0a60cd3-e777-4592-96a4-f5e09e479afd"/>
-          <PID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+          <ID name="" mc="Note" uid="c62765fe-5ce3-4a7e-8c2c-fc5b7037c3b2"/>
+          <PID name="GoodOrService" mc="Class" uid="5368809e-5aeb-4110-b17e-e83667145e0e"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Represent a Consumer
-- Has preferences
-- Earns Money
-- Interchanges Money for GoodOrServices
-- Each GoodOrService has an UtilityFunction
-]]></ATT>
+            <ATT name="Content"><![CDATA[Represents a specific GoodOrService]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>

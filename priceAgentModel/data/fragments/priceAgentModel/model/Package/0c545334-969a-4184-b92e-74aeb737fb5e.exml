@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dto" version="3">
+  <DEPS>
+    <ID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
+    <COMPID name="GoodOrService" mc="Class" uid="5368809e-5aeb-4110-b17e-e83667145e0e"/>
+    <COMPID name="IndifferenceCurve" mc="Class" uid="031b5a3f-f083-4b4f-a292-914010cf9d80"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
+    <PID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GoodOrService" mc="Class" uid="5368809e-5aeb-4110-b17e-e83667145e0e"/>
+        <COMPID name="IndifferenceCurve" mc="Class" uid="031b5a3f-f083-4b4f-a292-914010cf9d80"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

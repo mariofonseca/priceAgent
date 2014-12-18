@@ -1,33 +1,31 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consumer" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IndifferenceCurve" version="3">
   <DEPS>
-    <ID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+    <ID name="IndifferenceCurve" mc="Class" uid="031b5a3f-f083-4b4f-a292-914010cf9d80"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
-    <PID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <ID name="IndifferenceCurve" mc="Class" uid="031b5a3f-f083-4b4f-a292-914010cf9d80"/>
+    <PID name="dto" mc="Package" uid="0c545334-969a-4184-b92e-74aeb737fb5e"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Consumer]]></ATT>
+      <ATT name="Name"><![CDATA[IndifferenceCurve]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Note" uid="c0a60cd3-e777-4592-96a4-f5e09e479afd"/>
-          <PID name="Consumer" mc="Actor" uid="d7c8f4ca-e559-4017-b682-a96b2da5dc8f"/>
+          <ID name="" mc="Note" uid="1dca24b3-fa48-453a-9f7c-4348e4864dfb"/>
+          <PID name="IndifferenceCurve" mc="Class" uid="031b5a3f-f083-4b4f-a292-914010cf9d80"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Represent a Consumer
-- Has preferences
-- Earns Money
-- Interchanges Money for GoodOrServices
-- Each GoodOrService has an UtilityFunction
-]]></ATT>
+            <ATT name="Content"><![CDATA[Reflects a particular combination of GoodOrServices which offers the same utility to a consumer.
+It can also be seen as a particular basquet to consume.]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>

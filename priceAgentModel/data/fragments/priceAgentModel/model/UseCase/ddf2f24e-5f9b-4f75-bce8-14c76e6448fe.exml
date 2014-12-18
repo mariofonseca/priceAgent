@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Exchange" version="3">
+  <DEPS>
+    <ID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+    <PID name="priceagentmodel" mc="Package" uid="97bc270f-c1b4-4d1c-ba00-4c1bd85b7179"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Exchange]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="931f8d81-6ab5-4391-8afc-91afd9f05344"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Basically]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="9a172355-f448-4cfb-9c30-5ceb597a544d"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="e9b2a70a-b4d2-45f7-aebe-61ad7f48b2bd"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="8e9e3dee-dbbf-49ad-add9-f2cc5cb86bc7"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="1bd41ba7-e26b-48ce-9b54-90f3f4fdf56e"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c2994a6a-a076-41f6-9caf-239fef8df30b"/>
+          <PID name="Exchange" mc="UseCase" uid="ddf2f24e-5f9b-4f75-bce8-14c76e6448fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
